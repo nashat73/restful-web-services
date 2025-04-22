@@ -22,7 +22,7 @@ public class HelloWorldController {
 	@GetMapping("/hello-world")
 	public String helloWorld()
 	{
-		return "Hell World";
+		return "Hello World";
 	}
 	
 	@GetMapping("/hello-world-bean")
